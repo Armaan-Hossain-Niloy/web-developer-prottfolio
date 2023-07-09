@@ -2,6 +2,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 /* common shared styles */
@@ -24,8 +25,6 @@ body {
 
 nav>ul {
     display: flex;
-    
-
 }
 
 nav li {
@@ -43,7 +42,20 @@ nav a {
     background: #FD6E0A;
     border: 0;
     color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+.header{
+    background: #FFF8F3;
+}
+
+.bannar{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.bannar .profile-picture{
+    width: 500px;
+
 }
